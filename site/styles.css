@@ -708,3 +708,5 @@ footer.site a:hover{color:var(--header-text);}
 .doc-row{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;}
 .doc-row .panel-intro{margin-bottom:0;flex:1;min-width:240px;}
 .evidence-card .evidence-photo.is-sheet{object-fit:contain;background:#fff;}
+
+@media (max-width:480px){.about-split .photo-ticks{right:0;}}
