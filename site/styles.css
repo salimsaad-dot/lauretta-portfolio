@@ -710,3 +710,7 @@ footer.site a:hover{color:var(--header-text);}
 .evidence-card .evidence-photo.is-sheet{object-fit:contain;background:#fff;}
 
 @media (max-width:480px){.about-split .photo-ticks{right:0;}}
+
+.cta-btn{color:#FFFFFF;}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .cta-btn{color:var(--header-bg);}}
+:root[data-theme="dark"] .cta-btn{color:var(--header-bg);}
